@@ -38,7 +38,7 @@ a:hover {
     }
 
     img:active {
-        transform: scale(1.2); /* Applies on tap */
+        transform: scale(2); /* Applies on tap */
     }
 }
 
