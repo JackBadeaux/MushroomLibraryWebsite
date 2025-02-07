@@ -32,10 +32,23 @@ a:hover {
     text-align: center;
 }
 
+@media (max-width: 768px) {
+    img {
+        cursor: pointer;
+    }
+
+    img:active {
+        transform: scale(1.2); /* Applies on tap */
+    }
+}
+
 .mushroom img {
-    width: 100%;
+    width: 50%;
     height: auto;
     border-radius: 8px;
+}
+.mushroom img:hover{
+    transform: scale(1.2);
 }
 .mushroom ul {
     list-style-type: none;
