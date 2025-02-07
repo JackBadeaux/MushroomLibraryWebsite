@@ -1,0 +1,83 @@
+.navigation {
+    text-align: center;
+    background-color: rgba(172, 100, 17, 0.699);
+    font-weight: bolder;
+
+}
+
+.navigation ul {
+    list-style-type: none;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5)
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 columns */
+    gap: 20px; /* Add space between items */
+    max-width: 100%;
+    padding: 10px;
+}
+
+.mushroom {
+    text-align: center;
+}
+
+.mushroom img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+.mushroom ul {
+    list-style-type: none;
+}
+
+.header {
+    text-align: center;
+}
+
+.debate {
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    background-color: rgba(128, 128, 128, 0.445);
+}
+
+.debate h1 {
+    font-size: 30px;
+}
+
+.websitelist ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.websitelist ul li {
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(80, 59, 1);
+
+}
+
+.websitelist a {
+    border: 2px solid black;
+}
+
+header{
+    background-color: rgba(128, 128, 128, 0.445);
+}
+header h1 {
+    text-align: center;
+}
+
