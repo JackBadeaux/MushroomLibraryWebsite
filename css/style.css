@@ -6,8 +6,7 @@
 }
 
 .navigation ul {
-    list-style-type: none;
-
+    list-style-type: none;  /* removes bullets */
 }
 
 a {
@@ -30,15 +29,17 @@ a:hover {
 
 .mushroom {
     text-align: center;
+    box-sizing: border-box;
+    padding: 2px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     img {
         cursor: pointer;
     }
 
     img:active {
-        transform: scale(2); /* Applies on tap */
+        transform: scale(4); /* Applies on tap */
     }
 }
 
@@ -47,9 +48,7 @@ a:hover {
     height: auto;
     border-radius: 8px;
 }
-.mushroom img:hover{
-    transform: scale(1.2);
-}
+
 .mushroom ul {
     list-style-type: none;
 }
